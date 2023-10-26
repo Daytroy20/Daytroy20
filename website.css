@@ -1,0 +1,109 @@
+
+body{
+    height: 100vh;
+    width: 100%;
+font-family: Arial, Helvetica, sans-serif;
+background-image: linear-gradient(rgba(0, 0, 0, 0.24),rgba(0, 0, 0, 0.24)),url(beach.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+.banner{
+color:black;
+align-items: center;
+justify-items: center;
+height: 10px;
+width: 100%;
+
+
+}
+.navbar{
+    margin-left:30%;
+color: blueviolet;
+text-transform: uppercase;
+font-size: large;
+background-color: linear;
+justify-content: space-between;
+width: 80%;
+
+}
+.navbar ul, li{
+    list-style: none;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+
+}
+.navbar ul ,li ,a{
+text-decoration: none;
+color:yellow;
+transition: 0.5s;
+font-size: large;
+
+
+}
+
+.container h2{
+
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-size: 45px;
+    font-style: oblique;
+    
+    
+}
+.container h2:hover{
+font-size: 45px;
+color:greenyellow;
+cursor: all-scroll;
+
+
+
+}
+
+.container p{
+color: black;
+font-family: Arial, Helvetica, sans-serif;
+font-size: x-large;
+
+
+}
+
+
+.container{
+
+align-items: center;
+justify-items: center;
+margin: 20%;
+color: aliceblue;
+height: 100px;
+width: 75%;
+margin-left: 20%;
+
+
+}
+
+ button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    background:transparent;
+    color:black;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    background-color: azure;
+
+
+ }
+
+button:hover{
+background-color: green;
+border: none;
+width: 200px;
+cursor: pointer;
+    
+}

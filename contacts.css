@@ -1,0 +1,84 @@
+
+body{
+padding: 0%;
+margin: 0%;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(jamaica.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+.container{
+
+    height: 100vh;
+    padding: 50px 100px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 30px;
+    
+    
+}
+.contactsinfo{
+
+    display: flex;
+    flex-direction: column;
+    width: 100%; 
+    border-spacing: 10px;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 25%;
+    margin-top: 0%;
+
+}
+.contactsinfo button{
+height: 40px;
+width: 40px;
+border-radius: 50%;
+}
+
+h2{
+font-size: large;
+color: skyblue;
+text-transform: uppercase;
+font-weight: bold;
+
+}
+p{
+    
+    color: aliceblue;
+    
+}
+
+.contactsform{
+
+
+width: auto;
+padding: 10%;
+align-items: center;
+justify-items: center;
+margin-top: 0%;
+margin-bottom: 25%;
+color:black;
+background-color: aliceblue;
+
+
+}
+
+
+i{
+    color:white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.contactsform input,textarea{
+
+width:30vw;
+resize: none;
+    border-spacing: 5%;
+}
